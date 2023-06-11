@@ -3,7 +3,7 @@
 PhishNet is a comprehensive phishing detection system that combines multiple techniques and models to accurately identify and classify phishing attempts. The project leverages machine learning, natural language processing, and distributed computing to achieve high accuracy in phishing detection.
 
 ## DARTH Framework:
-![57DADAA9-9AE8-4966-8BB9-33FA6D7ACBF3_1_201_a](https://github.com/jag-prabhakaran/PhishNet/assets/73809351/b8c1bea1-056d-4555-ac8a-e38974d403cb)
+![BEC1EFDB-456D-4221-8883-0D8678E834AE_1_201_a](https://github.com/jag-prabhakaran/PhishNet/assets/73809351/4a7490cd-88ca-42d8-be10-6ecdad368cba)
 
 
 
