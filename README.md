@@ -9,7 +9,7 @@ PhishNet is a comprehensive phishing detection system that combines multiple tec
 
 ## Features
 
-- DARTH framework: Devised the Distributed Analysis of Email Content (DARTH) framework, which analyzes the content of emails to detect phishing attempts. The framework achieves an impressive accuracy rate of 98% in identifying phishing emails.
+- DARTH framework: Devised the Distributed Analysis for Research and Threat Hunting (DARTH) framework, which analyzes the content of emails to detect phishing attempts. The framework achieves an impressive accuracy rate of 98% in identifying phishing emails.
 
 - Semantic characteristics: PhishNet employs a pre-trained BERT model to encode the email content into dense vector representations. These representations preserve the semantic information present in the text, enabling PhishNet to effectively model the likelihood of an email being a phishing attempt. The pre-trained BERT model has been fine-tuned using a labeled dataset containing examples of legitimate and phishing emails. By training BERT on this dataset, PhishNet enhances its ability to extract meaningful features from email content and make accurate predictions.
 
