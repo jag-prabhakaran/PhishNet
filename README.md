@@ -1,18 +1,31 @@
-# PhishNet
+# 🎣 PhishNet - Comprehensive Phishing Detection System 🚫
 
-PhishNet is a comprehensive phishing detection system that combines multiple techniques and models to accurately identify and classify phishing attempts. The project leverages machine learning, natural language processing, and distributed computing to achieve high accuracy in phishing detection.
+PhishNet is a comprehensive phishing detection system that harnesses the power of machine learning, natural language processing, and distributed computing to accurately identify and classify phishing attempts.
 
-## DARTH Framework:
-![BEC1EFDB-456D-4221-8883-0D8678E834AE_1_201_a](https://github.com/jag-prabhakaran/PhishNet/assets/73809351/4a7490cd-88ca-42d8-be10-6ecdad368cba)
+## 🌐 DARTH Framework
+PhishNet operates based on the Distributed Analysis for Research and Threat Hunting (DARTH) framework. This system smartly analyses email content to detect potential phishing threats, showcasing an impressive 98% success rate.
+
+![](https://github.com/jag-prabhakaran/PhishNet/assets/73809351/1fe6f88d-7cab-4310-ad33-e8e376ef5693)
 
 
+## 🛠 Features
 
-## Features
+- **Semantic Analysis**: PhishNet uses a pre-trained BERT model for encoding email content into dense vector representations. These representations conserve the semantic details present in the text, providing an effective means of predicting the probability of an email being a phishing attempt.
 
-- DARTH framework: Devised the Distributed Analysis for Research and Threat Hunting (DARTH) framework, which analyzes the content of emails to detect phishing attempts. The framework achieves an impressive accuracy rate of 98% in identifying phishing emails.
+- **URL-based Detection**: By vectorizing URLs into numerical representations, PhishNet employs K-Nearest Neighbor (KNN) modeling to effectively identify phishing URLs with an impressive precision rate of 92%.
 
-- Semantic characteristics: PhishNet employs a pre-trained BERT model to encode the email content into dense vector representations. These representations preserve the semantic information present in the text, enabling PhishNet to effectively model the likelihood of an email being a phishing attempt. The pre-trained BERT model has been fine-tuned using a labeled dataset containing examples of legitimate and phishing emails. By training BERT on this dataset, PhishNet enhances its ability to extract meaningful features from email content and make accurate predictions.
+- **Combined Predictions**: The system integrates predictions from email content analysis and URL-based detection using an Artificial Neural Network (ANN). This combined model boosts the overall accuracy of phishing detection.
 
-- URL-based detection: PhishNet incorporates vectorization techniques to analyze and model URLs for phishing detection. By transforming URLs into numerical representations, the system gains the ability to leverage machine learning algorithms for classification. Integrated K-Nearest Neighbor (KNN) modeling for URL-based phishing detection. This approach achieves a precision rate of 92% in identifying phishing URLs.
+## 📝 Files in this project
+- `ann.py`: Implementation of the artificial neural network model.
+- `knn.py`: Implementation of the K-Nearest Neighbor model for URL-based detection.
+- `phishnetbert.ipynb`: Implementation of the BERT model for semantic analysis.
+- `predicturl.py`: Module responsible for URL prediction.
+- `preprocessing.py`: Module for data preprocessing.
 
-- Combined model predictions: PhishNet combines predictions from the email content analysis and URL-based detection using an Artificial Neural Network (ANN). This combined model enhances the overall accuracy of phishing detection.
+## ⚡ Quickstart
+1. Clone the project repository on your local machine.
+2. Install the required dependencies using pip: `pip install -r requirements.txt`
+3. Execute the desired Python script or Jupyter notebook.
+
+Be safe, secure, and phishing-free with PhishNet! 🎣🚫
