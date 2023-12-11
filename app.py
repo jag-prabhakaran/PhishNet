@@ -98,7 +98,7 @@ tokenizer = RegexpTokenizer(r'[A-Za-z]+')
 preprocessor = joblib.load('preprocessor.pkl')
 
 API_URL = "https://api-inference.huggingface.co/models/Jagannath/phishNet"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer "}
 
 def query(payload):
     response = requests.post(API_URL, headers=headers, json=payload)
